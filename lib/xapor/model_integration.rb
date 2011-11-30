@@ -1,10 +1,4 @@
 module Xapor::ModelIntegration
-  def self.included(base)
-    base.send(:include, Xapor::XapianFuIntegration)
-  end
-end
-
-module Xapor::XapianFuIntegration
   include XapianFu
   def self.included(base)
     base.extend ClassMethods

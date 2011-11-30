@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
     "lib/xapor.rb",
     "lib/xapor/config.rb",
     "lib/xapor/model_integration.rb",
-    "lib/xapor/railtie.rb",
     "spec/lib/xapor/config_spec.rb",
     "spec/lib/xapor/model_integration_spec.rb",
     "spec/lib/xapor_spec.rb",
@@ -55,6 +54,8 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<cucumber>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<cucumber>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
+      s.add_development_dependency(%q<cucumber>, [">= 0"])
       s.add_runtime_dependency(%q<xapian-fu>, [">= 1.1.0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<cucumber>, [">= 0"])
@@ -63,6 +64,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<cucumber>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<rspec>, [">= 1.2.9"])
+      s.add_dependency(%q<cucumber>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<cucumber>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
@@ -76,6 +79,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<cucumber>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<rspec>, [">= 1.2.9"])
+    s.add_dependency(%q<cucumber>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<cucumber>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
