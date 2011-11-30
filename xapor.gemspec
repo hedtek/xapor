@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "features/xapor.feature",
     "lib/xapor.rb",
     "lib/xapor/config.rb",
+    "lib/xapor/railtie.rb",
     "lib/xapor/model_integration.rb",
     "spec/lib/xapor/config_spec.rb",
     "spec/lib/xapor/model_integration_spec.rb",
