@@ -70,9 +70,3 @@ module Xapor::XapianFuIntegration
     self.class.xapor_db.flush
   end
 end
-
-if defined? ActiveRecord
-  ActiveRecord::Base.class_eval do
-    include Xapor::ModelIntegration
-  end
-end

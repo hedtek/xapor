@@ -1,9 +1,6 @@
 require 'rubygems'
 require 'xapian-fu'
 
-module Xapor
-  LIB_PATH = File.join(File.dirname(__FILE__), "xapor")
-end
-
-require File.join(Xapor::LIB_PATH, "model_integration")
-require File.join(Xapor::LIB_PATH, "config")
+require 'xapor/config'
+require 'xapor/model_integration'
+require 'xapor/railtie' if defined?(Rails)
